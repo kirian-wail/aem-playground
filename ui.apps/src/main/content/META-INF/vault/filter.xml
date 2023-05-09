@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/sii-website/clientlibs"/>
+    <filter root="/apps/sii-website/components"/>
+    <filter root="/apps/sii-website/i18n"/>
+</workspaceFilter>

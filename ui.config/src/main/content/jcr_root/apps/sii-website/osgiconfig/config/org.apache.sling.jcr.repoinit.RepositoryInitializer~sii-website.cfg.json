@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/sii-website",
+        "create path (nt:unstructured) /content/dam/sii-website/jcr:content",
+        "set properties on /content/dam/sii-website/jcr:content\n  set cq:conf{String} to /conf/sii-website\n  set jcr:title{String} to \"Sii Official Website\"\nend"
+    ]
+}

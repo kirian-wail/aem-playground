@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/sii-website" mode="merge"/>
+    <filter root="/content/sii-website" mode="merge"/>
+    <filter root="/content/dam/sii-website" mode="merge">
+        <exclude pattern="/content/dam/sii-website(/.*)?"/>
+        <include pattern="/content/dam/sii-website/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/sii-website/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/sii-website" mode="merge"/>
+</workspaceFilter>
