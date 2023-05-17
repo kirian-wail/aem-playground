@@ -3,6 +3,6 @@
     "pl.sii.website"
   ],
   "org.apache.sling.commons.log.level": "INFO",
-  "org.apache.sling.commons.log.file": "logs/error.log",
+  "org.apache.sling.commons.log.file": "logs/sii.log",
   "org.apache.sling.commons.log.additiv": "false"
 }

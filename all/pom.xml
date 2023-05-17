@@ -77,6 +77,7 @@
                             <type>zip</type>
                             <target>/apps/sii-website-packages/application/install</target>
                         </embedded>
+                        <!--  
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.content</artifactId>
@@ -94,6 +95,7 @@
                             <type>zip</type>
                             <target>/apps/sii-website-vendor-packages/application/install</target>
                         </embedded>
+                        -->
                     </embeddeds>
                 </configuration>
             </plugin>

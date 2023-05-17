@@ -1,0 +1,21 @@
+{
+    "name": "sync",
+    "version": "1.0.0",
+    "config": {
+        "aemhost": "localhost",
+        "aemport": "4502",
+        "aemuser": "admin",
+        "aempassword": "admin",
+        "unsafe-perm": true
+    },
+    "scripts": {
+        "sync": "webdav-sync --local_base src/main/content/jcr_root/ --remote_base http://%npm_package_config_aemuser%:%npm_package_config_aempassword%@%npm_package_config_aemhost%:%npm_package_config_aemport%/crx/repository/crx.default/"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "private": true,
+    "devDependencies": {
+        "webdav-sync": "^0.5.0"
+    }
+}

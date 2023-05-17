@@ -1,0 +1,21 @@
+<sly data-sly-use.model="pl.sii.website.core.models.SiiComponent"></sly>
+<div id="${model.id}">
+    <h1>
+        This is Sii Main Component - Version 2
+    </h1>
+    <div>
+    Text - ${model.text}
+    </div>
+    <div>
+    Link - ${model.link @ extension = 'html'}
+    </div>
+    <div>
+    Path - ${model.path @ extension = 'html'}
+    </div>
+    <div>
+    Path 2 - ${model.path2 @ extension = 'html'}
+    </div>
+</div>
+<form action="#">
+    <input type="submit" value="send!" />
+</form>
