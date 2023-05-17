@@ -1,0 +1,9 @@
+package pl.sii.website.core.services;
+
+import org.apache.sling.api.resource.ResourceResolver;
+
+public interface SiiComponentService {
+
+    String execute(ResourceResolver resolver);
+
+}
